@@ -1,6 +1,11 @@
 body{
-    background-color: white;
-    margin: 0;
+    background-color: gray;
+    margin: auto;
+}
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+    height: auto!important;
 }
 * {
     margin: 0;
@@ -12,7 +17,7 @@ body{
     background: transparent;
 }
 .Überschrift{
-    background-color: whitesmoke    ;
+    background-color: rgb(75, 75, 75);
     width: 100%;
     height: 7%;
     position: relative;
@@ -22,7 +27,7 @@ body{
 }
 #Profil{
     position: relative;
-    margin-left: 97%;
+    margin-right: 10px;
     margin-top: -0.8%;
     margin-bottom: 0.4%;
     width: 2%;
@@ -30,7 +35,7 @@ body{
 }
 ul{
     list-style-type: none;
-    background-color: whitesmoke;
+    background-color: rgb(75, 75, 75);
     margin-top: 0%;
     padding: 0;
     width: 100%;
