@@ -1,6 +1,8 @@
 body{
     background-color: gray;
-    margin: auto;
+    margin: auto;  
+
+
 }
 html, body{
     max-width: 100%;
@@ -16,40 +18,47 @@ html, body{
     vertical-align: baseline;
     background: transparent;
 }
+#Background{
+    padding-top: 700px;
+    background-image: url(lol.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .Überschrift{
+    display: inline-block;
     background-color: rgb(75, 75, 75);
-    width: 100%;
-    height: 100px;
-    position: relative;
+    opacity: 82%;
+    width: 100%; 
+    padding-bottom: 10px;
+    text-decoration: none;
+    position: fixed;
 }
 #EnduranceÜberschrift{
-    position: absolute;
-    margin-left: 1027.5px;
     margin-top: 15px;
     width: 19.7%;
     height: auto;
 }
-#Profil{
-    position: relative;
-    margin-left: 97.5%;
-    width: 2.7rem;
+#Nav{
+    display: inline-block;
+    float: right;
+    padding-top: 35px;
+    padding-right: 20px;
 }
-ul{
-    list-style-type: none;
-    background-color: rgb(75, 75, 75);
-    margin-top: 0%;
-    padding: 0;
-    width: 100%;
-    height: 5%;
-    box-shadow: 5px 5px 4px #405750;
-    position: absolute;
-    overflow: auto;
-}
-li a{
-    display: block;
-    color: gray;
-    padding: 15px 0 0 15px;
+#Nav a{
+    color: blue;
     text-decoration: none;
+}
+.aktiv{
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    border-radius: 3px 3px 3px 3px;
+    background-color: gray;
+}
+.aktiv:hover{
+    background-color: crimson;
 }
 #Startseite{
     margin: 0 10px 20px 10px;
