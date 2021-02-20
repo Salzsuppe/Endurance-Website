@@ -1,41 +1,80 @@
 <!DOCTYPE html>
-<head lang="de">
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" href="end2000.png">
-        <title>Endurance eSports</title>
-        <meta charset="UTF-8">
-        <meta name="keywords" content="Gaming, eSport, Mulitgaming, Endurance">
-        <meta name="description" content="Eine Website für Endurance eSport">
-        <meta name="author" content="Tom-Luca Westendorf">
-        <meta name="robots" content="index, follow">
-        <meta name="revisit-after" content="4 month">
-        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0">
-        <meta name="google-site-verification" content="vKFxPmnvUQjN7nFaa2XfNOfIGDs4jjRXb7hC9IjEDGo" />
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Esports, Endurance, Gaming, LoL, Rainbow Six Siege, Valorant, CS:GO">
+    <meta name="description" content="Die Webseite von Endurance Esports">
+    <meta name="author" content="Tom-Luca Westendorf">
+    <meta name="robots" content="index, follow">
+    <meta name="revisit-after" content="4 month">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Endurance Esports Startseite</title>
 </head>
 <body>
-    <div class="Überschrift">
-        <a href="index.html"><img id="EnduranceÜberschrift" src="Endurance_2.png" alt="Endurance eSports"></a>
-
-        <div id="Nav">
-            <a class="aktiv" href="index.html">Startseite</a>
-            <a class="aktiv" href="bewerben.html">Bewerben</a>
-            <a class="aktiv" href="social_media.html">YT/Twitch</a>  
-            <a class="aktiv" href="partnership.html">Partnership</a>           
-            <a class="aktiv" href="team.html">Severteam</a>
-            <a class="aktiv" href="main-team.html">Teams</a>
-            <a class="aktiv" href="support.html">Support</a>
-        </div>
-    </div>  
-
-    <section id="Background"></section>
-
-        <p id="Clan_Vorstellen"></p>
-
-
-<div id="video-wrapper">
-    <video src="doc revive.mp4" controls autoplay></video>
-</div>
+    <section class="Navleiste">
+        <nav>
+            <div class="Logos">
+                <a href="index.html"><img class="Endurance-Logo" src="Endurance_Logo.png" alt="Endurance"></a>
+                <img class="Endurance-Menu" src="end2000.png" alt="Endurance logo"></a>                
+            </div>
   
+            <ul id="Menu">
+                <li class="current"><a href="index.html">Startseite</a></li>
+                <li><a href="Serverteam.html">Serverteam</a></li>
+                <li><a href="Team.html">Teams</a></li>
+                <li><a href="Social_Media.html">YouTube/Twitch</a></li>
+                <li><a href="Partner_Sponsoren">Parnter und Sponsoren</a></li>
+                <li><a href="Bewerben.html">Bewerben</a></li>
+                <li><a href="Support.html">Support</a></li>
+            </ul>
+        </nav>
+    </section>
 
+    <section class="Video_Begrüßung">
+        <div class="Begrüßung">
+            <h1 class="We_are_Endurance">Wir sind Endurance!</h1>
+            <p class="Information_Endurance">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, dolores. Voluptatibus eaque nulla repellat doloremque, sit at beatae nobis omnis tempore enim nostrum incidunt reiciendis alias suscipit quisquam dolor modi.</p>
+        </div>
+        <video class="Intro" src="Endurance_Bumm.mp4"></video> 
+    </section>
+
+    <section class="Games">
+        <div class="Header_Games">
+            <h1>Unsere Spiele</h1>
+        </div>
+        <div class="four-Games">
+            <div>
+                <img class="a" src="Icon feather-check-circle.svg" alt="Vorhanden"><p>Rainbow Six Siege</p>
+            </div>
+            <div>
+                <img class="a" src="Icon feather-check-circle.svg" alt="Vorhanden"><p>Valorant</p>
+            </div>
+            <div>
+                <img class="a" src="Icon feather-check-circle.svg" alt="Vorhanden"><p>CS:GO</p>
+            </div>
+            <div>
+                <img class="a" src="Icon feather-check-circle.svg" alt="Vorhanden"><p>Leauge of Legends</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="Unser_Discord">
+        <h1 class="Hl_Dc">Unser Discord</h1>
+        <p>Hier könnt ihr unserem Discord beitreten. Wir bieten euch die Möglichkeit, auf unserem Discrod mit euren Freunden zu spielen, wir haben eine vielzahl von Channeln, in denen ihr euch Unterhalten oder miteinander Chatten könnt.</p>
+    </section>
+
+    <iframe class="Discord" src="https://discord.com/widget?id=691757626987511899&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+    <br>
+
+    <img class="Up" src="Icon feather-arrow-up-circle.svg" alt="Nach oben">
+    <br>
+    
+    <section class="Impressum">
+        <a href="Impressum.html">Impressum</a>
+        <a href="AGB.html">AGB</a>       
+        <a href="Datenschutz.html">Datenschutz</a>
+    </section>
 
 </body>
+</html>
