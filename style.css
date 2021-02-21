@@ -8,19 +8,31 @@ body{
 #Menu {
     display: none;
 }
-.Logos {
-    display: flex;
-    justify-content: space-between;
+.Navleiste {
     background-color: #00253B;
+    z-index: 1;
+}
+.Navleiste h2 {
+    display: none;
+    padding: 0.5em 0;
+    float: right;
+}
+.Logos {
+    display:inline-flexbox;
 }
 .Endurance-Logo {
+    float: left;
     width: 11em;
     margin: 0.938em 0 0.7em 1.25em;
 }
 .Endurance-Menu {
+    float: right;
     width: 2.35em;
     height: 2.35em;
     margin: 0.938em 1.25em 0.7em 0;
+}
+.Banner {
+    display: none;
 }
 .We_are_Endurance {
     margin-top: 1.7em;
@@ -29,6 +41,7 @@ body{
     margin: 1.7em 4.313em 4em;
 }
 .Intro {
+    border-style: none;
     width: 20.438em;
     margin-bottom: 3em;
 }
@@ -62,15 +75,89 @@ body{
     margin-bottom: 3em;
 }
 .Up {
-    float: right;
-    margin: 0 1em 2em;
+    margin: 0em 3em 2em;
 }
 .Impressum {
+    background-color: #001D2E;
+    width: 100%;
     display: flex;
-    margin-top: 1.5em;
 }
 .Impressum a {
-    margin: 1em 2em;
     text-decoration: none;
+    margin: 1em;
     color: white;
+    width: 100%;
+}
+
+@media (min-width: 730px) {
+
+    .Intro {
+        width: 35em;
+    }
+    .Impressum a {
+        margin: 1em;
+    }
+    .Up {
+        float: right;
+    }
+
+}
+
+@media (min-width: 930px) {
+
+    body {
+        text-align: unset;
+    }
+    .Navleiste h2 {
+        display: flex;
+        margin-right: 2em;
+        font-size: 1.8rem;
+    }
+    .Endurance-Logo {
+        width: 23.5em;
+    }
+    .Endurance-Menu {
+        width: 4.375em;
+        height: 4.375em;
+        margin-top: 1.375em;
+    }
+    .Banner {
+        display: flex;
+    }
+    .End_header {
+        width: 100%;
+    }
+    .Navleiste {
+        position: fixed;
+        width: 100%;
+        opacity: 86%;
+    }
+    .Video_Begrüßung {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-areas: 
+            "video content";
+    }
+    .Begrüßung {
+        grid-area: content;
+        margin-top: 7.188em;
+    }
+    .Intro {
+        position: relative;
+        width: 90%;
+        margin: 7.188em 3.125em 12.188em 4.375em;
+        grid-area: video;
+    }
+    .Begrüßung {
+        margin-left: 4.375em;
+    }
+    .We_are_Endurance {
+        margin: 0;
+        font-size: 4rem;
+    }
+    .Information_Endurance {
+        margin: 2em 0;
+        font-size: 1.5rem;
+    }
+
 }
