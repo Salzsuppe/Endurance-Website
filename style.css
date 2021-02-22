@@ -10,26 +10,24 @@ body{
 }
 .Navleiste {
     background-color: #00253B;
-    z-index: 1;
+
+}
+.Logos {
+    background-color: #00253B;
+    display: flex;
+    justify-content: space-between;
 }
 .Navleiste h2 {
     display: none;
-    padding: 0.5em 0;
-    float: right;
-}
-.Logos {
-    display:inline-flexbox;
 }
 .Endurance-Logo {
-    float: left;
     width: 11em;
-    margin: 0.938em 0 0.7em 1.25em;
+    margin: 0.938em 0 0.4em 1.3em;
 }
 .Endurance-Menu {
-    float: right;
     width: 2.35em;
     height: 2.35em;
-    margin: 0.938em 1.25em 0.7em 0;
+    margin: 0.938em 1.5em 0.4em 0;
 }
 .Banner {
     display: none;
@@ -112,11 +110,18 @@ body{
         display: flex;
         margin-right: 2em;
         font-size: 1.8rem;
+        padding: 0.5em 0;
+        float: right;
+    }
+    .Logos {
+        justify-content: unset;
+        display: unset;
     }
     .Endurance-Logo {
         width: 23.5em;
     }
     .Endurance-Menu {
+        float: right;
         width: 4.375em;
         height: 4.375em;
         margin-top: 1.375em;
