@@ -180,11 +180,53 @@ body{
     }
     .We_are_Endurance {
         margin: 0;
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
     .Information_Endurance {
-        margin: 2em 0;
+        margin: 1.5em 0;
+        padding: 0 5em 0 0;
         font-size: 1.5rem;
+    }
+    .four-Games {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+    }
+    .Games h1 {
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    .Games p {
+        font-size: 2.5rem;
+    }
+    .a {
+        width: 4.5em;
+        margin-left: 28em;
+    }
+    .dc {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-areas: 
+            "discord text";
+    }
+    .Unser_Discord h1 {
+        margin: 0 0 0.7em 0;
+        font-size: 3.5rem;
+    }
+    .Unser_Discord p {
+        font-size: 1.5rem;
+        padding: 0 6rem;
+    }
+    .Unser_Discord {
+        text-align: center;
+        margin: 16em 0 4em 5em;
+    }
+    .Discord {
+        width: 27em;
+        height: 42em;
+        margin: 5em 0 8em 15em;
+    }
+    .Unser_Discord p {
+        margin: 0;
     }
 
 }
